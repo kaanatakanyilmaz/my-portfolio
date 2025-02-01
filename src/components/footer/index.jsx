@@ -3,17 +3,22 @@ import { Linkedin, Github, Instagram, Facebook, Mail } from "lucide-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faXTwitter,
-  faFacebookF,
   faLinkedinIn,
   faSquareFacebook,
 } from "@fortawesome/free-brands-svg-icons";
+import { motion } from "framer-motion";
 
 function Footer() {
   return (
-    <footer className="  shadow-md bg-gray-800 text-white py-3 px-4">
+    <motion.footer
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      className=" flex flex-col  items-center  shadow-md bg-gray-800 text-white py-3 px-4"
+    >
       <div className=" text-center">
         <p className="mb-5">© 2025 Kaan Atakan Yilmaz All Rights Reserved.</p>
-        <div className="flex justify-center gap-6">
+        <div className="flex justify-center gap-0 sm:gap-3 md:gap-6">
           <a
             href="https://www.linkedin.com/in/kaan-atakan-yilmaz/"
             target="_blank"
@@ -29,7 +34,7 @@ function Footer() {
             className="text-lg"
           >
             <div className=" hover:bg-[#5968ba]  rounded-lg p-2">
-              <Github className="" size={40} />
+              <Github className="text-[40px]" size={40} />
             </div>
           </a>
           <a href="https://x.com/kaatakann" target="_blank" className="text-lg">
@@ -38,7 +43,7 @@ function Footer() {
             </div>
           </a>
           <a
-            href="https://www.instagram.com/wakoonn/"
+            href="https://www.instagram.com/kaatakann/"
             target="_blank"
             className="text-lg"
           >
@@ -72,7 +77,7 @@ function Footer() {
           </p>
         </div>
       </div>
-    </footer>
+    </motion.footer>
   );
 }
 
