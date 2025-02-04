@@ -25,7 +25,7 @@ function Education() {
           <h1 className="text-lg font-bold p-2">
             Düzce University – Bachelor's Degree in Computer Engineering
           </h1>
-          <p className="text-lg font-medium p-3">
+          <p className="font-medium text-sm sm:text-lg text-[#15202b] p-3 leading-relaxed  text-left ">
             I pursued my Bachelor's degree in Computer Engineering at Düzce
             University, where I gained a strong foundation in both theoretical
             and practical aspects of the field. Throughout my studies, I

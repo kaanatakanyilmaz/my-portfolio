@@ -18,7 +18,7 @@ function WeaterApp() {
           <span className="w-24 h-2 ml-0  bg-[#ff7a00] rounded-full text-center"></span>
         </div>
         <div className="flex flex-col justify-center   items-center">
-          <div className="text-[#15202b] p-15 leading-8 text-lg font-medium  mt-6 rounded-2xl bg-[#f9f9f9] shadow-lg text-left w-[280px] sm:w-[500px]  md:w-[800px] lg:w-[1000px] xl:w-[1300px] 2xl:w-[1800px]">
+          <div className="text-[#15202b] p-5 sm:p-15 leading-relaxed text-base sm:text-lg font-medium  mt-6 rounded-2xl bg-[#f9f9f9] shadow-lg text-left w-[300px] sm:w-[500px]  md:w-[800px] lg:w-[1000px] xl:w-[1300px] 2xl:w-[1800px]">
             <div className="">
               <p>
                 -- This project is a simple weather application developed using

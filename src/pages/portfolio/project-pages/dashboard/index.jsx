@@ -34,7 +34,7 @@ function AdminDashboard() {
           <span className="w-24 h-2 ml-0  bg-[#ff7a00] rounded-full text-center"></span>
         </div>
         <div className="flex flex-col justify-center   items-center">
-          <div className="text-[#15202b] p-15 leading-8 text-lg font-medium  mt-6 rounded-2xl bg-[#f9f9f9] shadow-lg text-left w-[280px] sm:w-[500px]  md:w-[800px] lg:w-[1000px] xl:w-[1300px] 2xl:w-[1800px]">
+          <div className="text-[#15202b] p-5 sm:p-15 leading-relaxed text-base sm:text-lg font-medium  mt-6 rounded-2xl bg-[#f9f9f9] shadow-lg text-left w-[300px] sm:w-[500px]  md:w-[800px] lg:w-[1000px] xl:w-[1300px] 2xl:w-[1800px]">
             <div className="">
               <p>
                 -- This project, a React admin dashboard was developed with a
@@ -106,41 +106,43 @@ function AdminDashboard() {
               </ul>
             </div>
           </div>
-          <div className="flex flex-col items-center p-15 lg:items-start gap-3 mt-4  ">
-            <h1 className="font-bold text-[20px] text-[#15202b] md:text-[30px] text-center md:text-left">
-              App Images
-            </h1>
-            <span className="w-26 h-2 bg-[#ff7a00] rounded-full "></span>
-            <span className="w-18 h-2 ml-0  bg-[#ff7a00] rounded-full text-center"></span>
-          </div>
-
-          <div className="relative w-full max-w-4xl mx-auto mb-20">
-            <div className="overflow-hidden rounded-lg shadow-lg">
-              <AnimatePresence mode="wait">
-                <motion.img
-                  key={images[index]}
-                  src={images[index]}
-                  className="w-full h-auto"
-                  initial={{ opacity: 0, x: 100 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  exit={{ opacity: 0, x: -100 }}
-                  transition={{ duration: 0.5 }}
-                />
-              </AnimatePresence>
+          <div className="hidden sm:block">
+            <div className="flex flex-col items-center p-15 lg:items-start gap-3 mt-4  ">
+              <h1 className="font-bold text-[20px] text-[#15202b] md:text-[30px] text-center md:text-left">
+                App Images
+              </h1>
+              <span className="w-26 h-2 bg-[#ff7a00] rounded-full "></span>
+              <span className="w-18 h-2 ml-0  bg-[#ff7a00] rounded-full text-center"></span>
             </div>
 
-            <button
-              onClick={prevSlide}
-              className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white/20 hover:bg-white/70 p-2 rounded-full shadow-lg "
-            >
-              <CircleChevronLeft className="text-[#ff7a00]" />
-            </button>
-            <button
-              onClick={nextSlide}
-              className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-white/20 hover:bg-white/70 p-2 rounded-full shadow-lg"
-            >
-              <CircleChevronRight className="text-[#ff7a00]" />
-            </button>
+            <div className=" relative w-full max-w-7xl mx-auto mb-20">
+              <div className="overflow-hidden rounded-lg shadow-lg">
+                <AnimatePresence mode="wait">
+                  <motion.img
+                    key={images[index]}
+                    src={images[index]}
+                    className="w-full h-auto"
+                    initial={{ opacity: 0, x: 100 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -100 }}
+                    transition={{ duration: 0.5 }}
+                  />
+                </AnimatePresence>
+              </div>
+
+              <button
+                onClick={prevSlide}
+                className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white/20 hover:bg-white/70 p-2 rounded-full shadow-lg "
+              >
+                <CircleChevronLeft className="text-[#ff7a00]" />
+              </button>
+              <button
+                onClick={nextSlide}
+                className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-white/20 hover:bg-white/70 p-2 rounded-full shadow-lg"
+              >
+                <CircleChevronRight className="text-[#ff7a00]" />
+              </button>
+            </div>
           </div>
         </div>
       </motion.div>

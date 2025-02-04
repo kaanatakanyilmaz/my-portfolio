@@ -8,6 +8,7 @@ import {
   Building2,
   University,
   Phone,
+  ContactRound,
   LaptopMinimal,
 } from "lucide-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -23,7 +24,7 @@ function Contact() {
     >
       <div className="flex flex-col items-center lg:items-start gap-3 mt-4 px-20 ">
         <h1 className="font-bold text-[30px] text-[#15202b] md:text-[40px] text-center md:text-left">
-          About Me
+          Contact
         </h1>
         <span className="w-32 h-2 bg-[#ff7a00] rounded-full "></span>
         <span className="w-24 h-2 ml-0  bg-[#ff7a00] rounded-full text-center"></span>
@@ -35,7 +36,7 @@ function Contact() {
             <div className="flex flex-col md:flex-row justify-between p-8">
               <div className="flex flex-col ">
                 <div className="flex flex-col sm:flex-row  items-center">
-                  <Mail className="text-[#ff7a00]  sm:h-4 sm:w-4 md:h-5 md:w-5" />
+                  <ContactRound className="text-[#ff7a00]  sm:h-4 sm:w-4 md:h-5 md:w-5" />
                   <li className="ml-3 border-b-1 border-[#747171] mb-3">
                     <span className="font-bold  "> Name:</span>
                     <span className="ml-3 text-[#747171] ">

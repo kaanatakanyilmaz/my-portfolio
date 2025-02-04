@@ -17,7 +17,7 @@ function Content() {
         <span className="w-24 h-2 ml-0  bg-[#ff7a00] rounded-full text-center"></span>
       </div>
       <div className="flex justify-center">
-        <p className="text-[#15202b] p-15 leading-8 text-lg font-medium  mt-6 rounded-2xl bg-[#f9f9f9] shadow-lg text-left w-[300px] sm:w-[500px]  md:w-[800px] lg:w-[1000px] xl:w-[1300px] 2xl:w-[1800px]">
+        <p className="text-[#15202b] p-8 leading-relaxed text-sm sm:text-lg text-left font-medium  mt-6 rounded-2xl bg-[#f9f9f9] shadow-lg  w-[300px] sm:w-[500px]  md:w-[800px] lg:w-[1000px] xl:w-[1300px] 2xl:w-[1800px]">
           I graduated from the Department of Computer Engineering at Duzce
           University. As an engineer eager to continuously develop myself and
           stay updated with the latest technologies, I strive to contribute to

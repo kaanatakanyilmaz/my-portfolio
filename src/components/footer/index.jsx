@@ -14,7 +14,7 @@ function Footer() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className=" flex flex-col  items-center  shadow-md bg-gray-800 text-white py-3 px-4"
+      className=" flex flex-col  items-center  shadow-md bg-[#15202b] text-white py-3 px-4"
     >
       <div className=" text-center">
         <p className="mb-5">© 2025 Kaan Atakan Yilmaz All Rights Reserved.</p>
