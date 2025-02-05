@@ -1,8 +1,8 @@
-#Kişisel Portföy Web Sitesi
+# Kişisel Portföy Web Sitesi
 Bu, React ve Tailwind CSS kullanılarak oluşturulmuş kişisel portföy web sitemdir. Becerilerimi, projelerimi ve deneyimlerimi temiz ve modern bir tasarımla sergiliyor. Site, Framer Motion ile desteklenen akıcı animasyonlar ve tüm cihazlar için optimize edilmiş bir duyarlı tasarım sunmaktadır.
 
-##Kullanılan Teknolojiler
-###Ana Teknolojiler
+## Kullanılan Teknolojiler
+### Ana Teknolojiler
 
 - **React**: Kullanıcı arayüzleri oluşturmak için popüler bir JavaScript kütüphanesi.
 - **Vite**: Hızlı ve modern bir derleme aracı, aynı zamanda geliştirme sunucusu.
