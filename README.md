@@ -18,4 +18,5 @@ Bu, React ve Tailwind CSS kullanılarak oluşturulmuş kişisel portföy web sit
 - **Akıcı Animasyonlar**: Framer Motion kullanılarak geçişler ve etkileşimli efektler.
 
 
-[Site linki:]( kaanatakanyilmaz.com)
+
+ [ kaanatakanyilmaz.com](https://www.kaanatakanyilmaz.com)
